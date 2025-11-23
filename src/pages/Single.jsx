@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useEffect, useMemo, useState } from "react";
 import useGlobalReducer from "../hooks/useGlobalReducer";
+import "./single.css";
 
 export const Single = () => {
   const { store, dispatch } = useGlobalReducer();
@@ -82,10 +83,10 @@ export const Single = () => {
 
   return (
     <div className="container py-4">
-      <div className="card">
+      <div className="card pokeball-detail">
         <div className="row g-0">
           <div className="col-12 col-md-4 p-3 text-center">
-            {img && <img src={img} alt={name} className="img-fluid w-100" style={{ width: '100%', height: 'auto' }} />}
+            {img && <img src={img} alt={name} className="img-fluid w-100 detail-hero-img" />}
           </div>
           <div className="col-12 col-md-8">
             <div className="card-body">

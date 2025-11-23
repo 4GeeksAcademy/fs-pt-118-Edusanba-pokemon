@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import useGlobalReducer from "../hooks/useGlobalReducer";
+import "./Navbar.css";
 
 export const Navbar = () => {
     const { store, dispatch } = useGlobalReducer();
 
     return (
-        <nav className="navbar navbar-light bg-light">
+        <nav className="navbar navbar-dark pokeball-navbar">
             <div className="container">
                 <Link to="/">
                     <span className="navbar-brand mb-0 h1">Pokemon Databank</span>

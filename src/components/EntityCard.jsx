@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import useGlobalReducer from "../hooks/useGlobalReducer";
+import "./EntityCard.css";
 
 export default function EntityCard({ type, name, url }) {
   const { store, dispatch } = useGlobalReducer();
@@ -74,7 +75,7 @@ EntityCard.propTypes = {
   };
 
   return (
-    <div className="card h-100">
+    <div className="card pokeball-card h-100">
       {img && <img src={img} className="card-img-top" alt={name} />}
       <div className="card-body d-flex flex-column">
         <h5 className="card-title text-capitalize">{name}</h5>

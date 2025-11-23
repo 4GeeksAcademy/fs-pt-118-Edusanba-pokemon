@@ -1,0 +1,10 @@
+.pokeball-detail { background: #161616; color: var(--poke-white); border: 1px solid var(--poke-ring); }
+.pokeball-detail .accordion-button { background: #1d1d1d; color: var(--poke-white); }
+.pokeball-detail .accordion-item { background: #1b1b1b; border-color: var(--poke-ring); }
+.pokeball-detail .list-group-item { background: #1b1b1b; color: var(--poke-white); border-color: #272727; }
+
+/* Igualar color de párrafos al de los <li> para mejor contraste */
+.pokeball-detail .card-body p { color: var(--poke-white); }
+.pokeball-detail .card-body p.text-muted { color: var(--poke-white) !important; }
+
+.detail-hero-img { width: 100%; height: auto; }

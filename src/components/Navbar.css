@@ -1,0 +1,9 @@
+.pokeball-navbar {
+  background: linear-gradient(0deg, var(--poke-red-dark), var(--poke-red));
+  border-bottom: 4px solid var(--poke-black);
+}
+.pokeball-navbar .navbar-brand,
+.pokeball-navbar .nav-link,
+.pokeball-navbar .dropdown-toggle {
+  color: var(--poke-white) !important;
+}

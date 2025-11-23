@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import EntityCard from "../components/EntityCard";
+import "./home.css";
 import Autocomplete from "../components/Autocomplete";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 
@@ -121,10 +122,10 @@ export const Home = () => {
 
   return (
     <div className="container py-4">
-      <h2 className="mb-3">Browse Databank</h2>
+      <h2 className="mb-3 section-title-poke">Browse Databank</h2>
 
       <div className="d-flex align-items-center mb-2">
-        <span className="me-2 fw-bold">Pokemons</span>
+        <span className="me-2 fw-bold section-title-poke">Pokemons</span>
       </div>
       <div className="row g-3 mb-3 align-items-end">
         <div className="col-12 col-md-6">
@@ -167,7 +168,7 @@ export const Home = () => {
       </div>
 
       <div className="d-flex align-items-center mb-2">
-        <span className="me-2 fw-bold">Items</span>
+        <span className="me-2 fw-bold section-title-poke">Items</span>
       </div>
       <div className="row g-3 mb-3 align-items-end">
         <div className="col-12 col-md-6">

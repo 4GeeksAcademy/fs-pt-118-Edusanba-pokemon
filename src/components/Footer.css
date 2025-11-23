@@ -1,0 +1,5 @@
+.pokeball-footer {
+  background: var(--poke-gray);
+  color: var(--poke-white);
+  border-top: 4px solid var(--poke-ring);
+}

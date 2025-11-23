@@ -1,0 +1,13 @@
+.section-title-poke {
+  position: relative;
+  display: inline-block;
+  color: var(--poke-white);
+}
+.section-title-poke::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--poke-red);
+  margin-top: 6px;
+  border-radius: 999px;
+}

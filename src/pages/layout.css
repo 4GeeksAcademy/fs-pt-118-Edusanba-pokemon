@@ -1,0 +1,5 @@
+.theme-pokeball {
+  background: radial-gradient(circle at 20% 10%, #2a2a2a 0%, #151515 60%, #0f0f0f 100%);
+  color: var(--poke-white);
+  min-height: 100vh;
+}
